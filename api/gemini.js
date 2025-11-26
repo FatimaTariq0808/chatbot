@@ -1,6 +1,3 @@
-// api/gemini.js
-// Place this file in the /api folder at the ROOT of your project
-
 export default async function handler(req, res) {
   // Only allow POST requests
   if (req.method !== 'POST') {
